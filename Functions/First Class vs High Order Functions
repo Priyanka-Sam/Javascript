@@ -1,0 +1,17 @@
+First Class Functions
+
+normals functions -first class citizens
+like simply vlayes
+just 'another' type of object
+store functions in variables/propertties
+pass functions as arguments to OTHER functions
+Return functions from functions
+call methods on functions
+
+
+Higher Order Functions
+
+Function that recieves another functon as an argument, or that returns a new function or both.
+This only possible becaus of first class functions
+
+ 
