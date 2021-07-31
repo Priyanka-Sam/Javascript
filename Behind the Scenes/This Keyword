@@ -1,0 +1,16 @@
+THIS Keyword
+
+* Special Variable that is create for evry execution context ( every function) takes the value of points of the "owner" of the function in which the this key word is used
+
+* this is NOT a static, it depends on how th efunction is called and its value is only assigned when the function is actually called
+
+Method - This -> points to objects
+
+Arrow Fucntion -> this keyword of surrounding function (lexical this)
+
+Event Listener -> <DOM element tha the handler is attached to
+
+new, call, appply, bind  ->
+
+
+* This doesnt point to the function itself or the varable environment

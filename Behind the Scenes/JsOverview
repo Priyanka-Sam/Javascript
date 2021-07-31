@@ -1,0 +1,30 @@
+// High Level
+
+// Garbage Collected
+
+// Interpreted / just in time compiled
+
+// multi paradigm - approach / mindset of structuring code
+// procedural, oops,functional,      impeartive/declarative
+
+// prototype- based object-Oriented
+
+// first class functions - functionstreated as variables
+
+// dynamic language - types become known at runtime
+//SIngle - threaded,Concurrency model
+//using event loop - takes long running taks, process them inbg and bringsthem back to the main thread
+
+//JS Engine - V8 (google)
+//call stack - code actually executed using execution content
+//heap - unstructured memory pool, stores object
+
+//compilation - Entire code is converted into machine code at once
+// interpretation - converts it line by line
+//JIT - entire code is converted into machine code at once then executed immediately
+
+//JS runtime - box containing everything JS needs
+//contains JS Engine , WEB AudioProcessingEvent,callback queueMicrotask
+//after an event, callback func put into callback queue
+//when call stack is empty , callback func is passed to the stack
+//happens by event loop - takes callback func to the stack, to get executed

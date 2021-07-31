@@ -1,0 +1,42 @@
+1. compilation
+
+2. creation of Global execution context GEC is created for top level code (not inside a function)
+Only this code is executed first
+
+execution context - abstract concept, an environment in which a piece of JS is executed, stores all the necessary  information to be executed
+
+3. Execution of top level code (inside GEC)
+
+4. Execution of Functions and waiting for callback
+
+*************************************************************************
+What is inside EC?
+
+1. Variable Environment - allvariables, functions, argument
+ each func gets its own EC
+ 
+Scope chain
+- contains refrences to varaibles outside the functions
+- it is stored in each EC
+- gets this keyword
+
+all this generated in the creation phase, right before execution
+
+*************************************************************************
+
+Scope - Accessibility of variables throughtout the code
+
+Global Scope - outside of any function/block, accessible everywhere
+Function Scope - inside the function, not outside, var is function scoped
+Block Scope - inside the bloc, let and const are block scoped, var isnt
+            - functions are also scope
+            
+Variable lookup in scope chain, parent scope variable s can be accessed, scoping only works upward  
+
+lexical scoping - sibling scopes can't acces each other's variables            
+            
+            ************************************************************************
+       
+scope chain has nothing to do with the order of EC in call stack     
+
+Every scope alwyas has to access to all the variables from its outer scopes.       
